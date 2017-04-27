@@ -1,0 +1,7 @@
+.hovertreeshowcover{position:fixed;z-index:99;width:100%;height:100%;background-color:silver;top:0px;left:0px;opacity:0.5;}
+.hovertreeshowlayer{position:absolute;z-index:168;top:0px;left:0px;min-width:100%;min-height:100%;display:flex;justify-content: center; align-items: center;}
+.hovertreeshowclose{background-color:green;color:white;border:1px solid silver;position:fixed;z-index:288;top:0px;right:0px;cursor:pointer;height:40px;width:80px;text-align:center;display:flex;justify-content: center; align-items: center;}
+@media (max-width:750px) {
+    .hovertreeshowclose{left:0px;right:auto;}
+}
+.hovertreeshow img{cursor:pointer;}
